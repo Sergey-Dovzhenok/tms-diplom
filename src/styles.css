@@ -7,13 +7,18 @@ body {
 a:-webkit-any-link {
 	color: unset;
 }
-p {
-	font-size: 0.5vw;
-	font-weight: 700;
-}
+
 h3 {
 	font-size: 1vw;
 	font-weight: 900;
 	color: rgb(233, 13, 13);
-	font-Family: "Oleo Script", cursive;
+	font-family: "Oleo Script", cursive;
+}
+.MuiPaper-elevation1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.MuiGrid-container {
+	align-items: center;
 }

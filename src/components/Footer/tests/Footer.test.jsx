@@ -6,14 +6,14 @@ import { createMemoryHistory } from "history";
 import Footer from "../Footer";
 
 describe("testing Footer", () => {
-    test("should render with out crashing", () => {
-        const history = createMemoryHistory();
-        const route = "/some-route";
-        history.push(route);
-        render(
-            <Router history={history}>
-                <Footer info={"hello"}></Footer>
-            </Router>,
-        );
-    });
+	test("should render with out crashing", () => {
+		const history = createMemoryHistory();
+		const route = "/some-route";
+		history.push(route);
+		render(
+			<Router history={history}>
+				<Footer info={"hello"}></Footer>
+			</Router>,
+		);
+	});
 });

@@ -3,5 +3,5 @@ import shows from "./watchers/shows";
 import premieres from "./watchers/premieres";
 
 export default function* rootWatcher() {
-    yield all([shows(), premieres()]);
+	yield all([shows(), premieres()]);
 }

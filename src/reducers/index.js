@@ -3,8 +3,8 @@ import show from "./showsReducer";
 import premieres from "./premieresReducer";
 
 const rootReducer = combineReducers({
-    show,
-    premieres,
+	show,
+	premieres,
 });
 
 export default rootReducer;
